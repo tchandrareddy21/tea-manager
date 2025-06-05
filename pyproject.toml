@@ -1,5 +1,5 @@
 [project]
-name = "fastapi-app"
+name = "tea-manager"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,5 +8,6 @@ dependencies = [
     "bson>=0.5.10",
     "fastapi>=0.115.12",
     "pymongo==4.12.1",
+    "streamlit>=1.45.1",
     "uvicorn>=0.34.3",
 ]
